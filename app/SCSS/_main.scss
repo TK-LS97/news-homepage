@@ -84,4 +84,42 @@ picture img{
     color:$OffWhite;
 }
 
+hr{
+    opacity: 70%;
+    border:solid 1px $DarkGrayishBlue;
+}
+
+
+
+.article3{
+    display:flex;
+    width: 100%;
+    margin:20px 0;
+    gap:20px;
+}
+
+.article3 div{
+    display:flex;
+    flex-direction: column;
+    color:$DarkGrayishBlue;
+    line-height: 1.9;
+}
+
+.article3 div h2{
+    font-size:35px;
+    color:$GrayishBlue;
+    // margin-bottom: 5px;
+}
+
+.article3 div h3{
+    color:black;
+    // margin-bottom: 8px;
+}
+
+.article3 picture img{
+ width:100%;
+}
+
+
+
 

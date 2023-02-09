@@ -88,4 +88,36 @@ picture img {
   color: hsl(36deg, 100%, 99%);
 }
 
+hr {
+  opacity: 70%;
+  border: solid 1px hsl(236deg, 13%, 42%);
+}
+
+.article3 {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.article3 div {
+  display: flex;
+  flex-direction: column;
+  color: hsl(236deg, 13%, 42%);
+  line-height: 1.9;
+}
+
+.article3 div h2 {
+  font-size: 35px;
+  color: hsl(233deg, 8%, 79%);
+}
+
+.article3 div h3 {
+  color: black;
+}
+
+.article3 picture img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */
