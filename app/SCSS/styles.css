@@ -120,4 +120,16 @@ hr {
   width: 100%;
 }
 
+.hamburger.active:before {
+  transform: rotate(-45deg) translate(-9px, 3px);
+}
+
+.hamburger.active:after {
+  transform: rotate(45deg) translate(-8px, -1px);
+}
+
+.hamburger.active .bar {
+  opacity: 0;
+}
+
 /*# sourceMappingURL=styles.css.map */
