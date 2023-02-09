@@ -42,3 +42,46 @@ picture{
 picture img{
     width:100%;
 }
+
+.article1 h1{
+    margin:10px 0;
+}
+
+.article1 p{
+    line-height:1.5;
+    color:$DarkGrayishBlue;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+    height: 35px;
+    text-transform: uppercase;
+    padding:10px 20px;
+    background-color:$SoftRed;
+    color:$OffWhite;
+    border: none;
+}
+
+.article2{
+    background-color:$VeryDarkBlue;
+    padding: 20px;
+}
+
+.article2 h2{
+    color:$SoftOrange;
+    margin-bottom:10px;
+}
+
+.article2 div {
+    margin: 20px 0;
+    color:$GrayishBlue;
+}
+
+.article2 div h3{
+    margin-bottom: 10px;
+    color:$OffWhite;
+}
+
+

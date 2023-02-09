@@ -47,4 +47,45 @@ picture img {
   width: 100%;
 }
 
+.article1 h1 {
+  margin: 10px 0;
+}
+
+.article1 p {
+  line-height: 1.5;
+  color: hsl(236deg, 13%, 42%);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  height: 35px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: hsl(5deg, 85%, 63%);
+  color: hsl(36deg, 100%, 99%);
+  border: none;
+}
+
+.article2 {
+  background-color: hsl(240deg, 100%, 5%);
+  padding: 20px;
+}
+
+.article2 h2 {
+  color: hsl(35deg, 77%, 62%);
+  margin-bottom: 10px;
+}
+
+.article2 div {
+  margin: 20px 0;
+  color: hsl(233deg, 8%, 79%);
+}
+
+.article2 div h3 {
+  margin-bottom: 10px;
+  color: hsl(36deg, 100%, 99%);
+}
+
 /*# sourceMappingURL=styles.css.map */
