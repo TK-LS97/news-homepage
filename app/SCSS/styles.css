@@ -26,6 +26,7 @@
   background: none;
   outline: none;
   border: none;
+  z-index: 99;
 }
 
 .hamburger .bar, .hamburger:after, .hamburger:before {
@@ -130,6 +131,41 @@ hr {
 
 .hamburger.active .bar {
   opacity: 0;
+}
+
+.nav-mobile {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  z-index: 98;
+  background-color: hsl(36deg, 100%, 99%);
+  padding-top: 120px;
+  transition: 0.4s;
+}
+.nav-mobile a {
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin: 0 auto 15px;
+  padding: 12px 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-mobile.active {
+  left: 40%;
+}
+
+.container {
+  display: none;
+  background-color: red;
+  height: 100vh;
+  z-index: 94;
+  transition: 0.4s;
+  position: absolute;
 }
 
 /*# sourceMappingURL=styles.css.map */
