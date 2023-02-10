@@ -65,6 +65,11 @@ picture img{
     border: none;
 }
 
+.btn:hover{
+    background-color:$VeryDarkBlue;
+    cursor:pointer;
+}
+
 .article2{
     background-color:$VeryDarkBlue;
     padding: 20px;
@@ -88,6 +93,11 @@ picture img{
 hr{
     opacity: 70%;
     border:solid 1px $DarkGrayishBlue;
+}
+
+.article2 div h3:hover{
+    color:$SoftOrange;
+    cursor:pointer;
 }
 
 
@@ -119,6 +129,11 @@ hr{
 
 .article3 picture img{
  width:100%;
+}
+
+.article3 div h3:hover{
+    color:$SoftRed;
+    cursor:pointer;
 }
 
 
@@ -163,12 +178,60 @@ hr{
     left:40%;
 }
 
-.container{
-    display:none;
-    background-color:red;//rbga(0,0,0,0.8);
-    // opacity: 0;
-    height: 100vh;
-    z-index: 94;
-    transition:0.4s;
-    position: absolute;
+.nav-desktop a{
+    margin-right:25px;
+    text-decoration: none;
+    color:$DarkGrayishBlue;
+}
+
+.nav-desktop:hover{
+    color:$SoftRed;
+}
+
+@media(max-width:860px){
+    .nav-desktop{
+        display: none;
+    }
+
+    .desktop-pic{
+        display:none;
+    }
+}
+
+
+@media (min-width:861px){
+    .nav-mobile{
+        display :none;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .mobile-pic{
+        display:none;
+    }
+
+    .big-wrap{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .nav-bar{
+        grid-column:1/4;
+    }
+
+    picture {
+        grid-column: 1/3 ;
+    }
+
+    .article2{
+        grid-column:3/4;
+        grid-row:2/4;
+    }
+
+    section{
+        grid-row:4;
+        display: flex;
+        grid-column: span 3;
+    }
 }
