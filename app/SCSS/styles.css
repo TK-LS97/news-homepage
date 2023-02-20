@@ -7,7 +7,7 @@
 .big-wrap {
   margin: 15px;
   display: grid;
-  gap: 5px;
+  gap: 20px;
 }
 
 .nav-bar {
@@ -128,7 +128,7 @@ hr {
 }
 
 .article3 picture img {
-  width: 100%;
+  width: 150px;
 }
 
 .article3 div h3:hover {
@@ -216,6 +216,7 @@ hr {
     grid-row: 2/4;
   }
   section {
+    max-height: 260px;
     grid-row: 4;
     display: flex;
     grid-column: span 3;
