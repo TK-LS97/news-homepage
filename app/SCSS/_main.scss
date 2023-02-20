@@ -44,6 +44,11 @@ picture img{
     width:100%;
 }
 
+.article0{
+    font-size:larger;
+    line-height: 1.2;
+}
+
 .article1 h1{
     margin:10px 0;
 }
@@ -188,7 +193,7 @@ hr{
     color:$SoftRed;
 }
 
-@media(max-width:860px){
+@media(max-width:860px){  //Mobile
     .nav-desktop{
         display: none;
     }
@@ -199,7 +204,7 @@ hr{
 }
 
 
-@media (min-width:861px){
+@media (min-width:861px){  //Desktop
     .nav-mobile{
         display :none;
     }
@@ -234,5 +239,9 @@ hr{
         grid-row:4;
         display: flex;
         grid-column: span 3;
+
+        > *:not(:last-child){
+            margin-right:15px;
+        }
     }
 }

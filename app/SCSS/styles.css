@@ -48,6 +48,11 @@ picture img {
   width: 100%;
 }
 
+.article0 {
+  font-size: larger;
+  line-height: 1.2;
+}
+
 .article1 h1 {
   margin: 10px 0;
 }
@@ -220,6 +225,9 @@ hr {
     grid-row: 4;
     display: flex;
     grid-column: span 3;
+  }
+  section > *:not(:last-child) {
+    margin-right: 15px;
   }
 }
 
