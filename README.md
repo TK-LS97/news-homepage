@@ -26,12 +26,12 @@ Users should be able to:
 ### Screenshots
 
 #### Mobile screenshot
-![](../news-homepage/Screenshots/Mobile.jpeg)
+![](./assets/Screenshots/Mobile.jpeg)
 
 
 
 #### Desktop screenshot
-![](../news-homepage/Screenshots/Desktop.jpeg)
+![](./assets/Screenshots/Desktop.jpeg)
 
 
 ### Links
