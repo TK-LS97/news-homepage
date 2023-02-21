@@ -17,6 +17,12 @@
   padding: 5px;
 }
 
+nav a:hover {
+  cursor: pointer;
+  color: hsl(5deg, 85%, 63%);
+  transition: 0.5s;
+}
+
 .hamburger {
   display: block;
   width: 35px;
@@ -180,24 +186,26 @@ hr {
 }
 
 .nav-desktop a {
-  margin-right: 25px;
   text-decoration: none;
   color: hsl(236deg, 13%, 42%);
 }
 
-.nav-desktop:hover {
-  color: hsl(5deg, 85%, 63%);
+.nav-desktop > *:not(:last-child) {
+  margin-right: 25px;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 700px) {
   .nav-desktop {
     display: none;
   }
   .desktop-pic {
     display: none;
   }
+  nav a:hover {
+    background-color: hsl(240deg, 6%, 93%);
+  }
 }
-@media (min-width: 861px) {
+@media (min-width: 701px) {
   .nav-mobile {
     display: none;
   }
@@ -219,6 +227,9 @@ hr {
   .article2 {
     grid-column: 3/4;
     grid-row: 2/4;
+  }
+  .article2 > *:not(:last-child) {
+    margin-bottom: 40px;
   }
   section {
     max-height: 260px;
